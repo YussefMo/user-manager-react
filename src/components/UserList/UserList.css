@@ -1,0 +1,32 @@
+.user-list ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.user-list ul li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 10px 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.user-list ul li button{
+    background: none;
+    border: none;
+}
+.icon{
+    color: red;
+    cursor: pointer;
+    font-size: 24px;
+}
+@media screen and (max-width:768px){
+    .user-list ul li{
+        width: 95%;
+    }
+}

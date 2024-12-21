@@ -1,0 +1,52 @@
+.back-error{
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(28, 26, 26, 0.455);
+    margin-top: -5%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.back-error header {
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px 15px 0px 0px;
+}
+.back-error div{
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 4rem;
+    font-weight: bold;
+}
+.back-error footer {
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    text-align: right;
+    border-radius: 0px 0px 15px 15px;
+}
+.back-error button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .back-error header{
+        width: 95%;
+    }
+    .back-error div{
+        width: 95%;
+    }
+    .back-error footer{
+        width: 95%;
+    }
+}
