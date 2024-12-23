@@ -25,6 +25,11 @@
     cursor: pointer;
     font-size: 24px;
 }
+.icon-edit{
+    color: blue;
+    cursor: pointer;
+    font-size: 24px;
+}
 @media screen and (max-width:768px){
     .user-list ul li{
         width: 95%;
